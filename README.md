@@ -1,4 +1,2 @@
-middleman-project-template
-==========================
+### Please use [EditorConfig](http://editorconfig.org/)
 
-Start a Middleman project real quick! 
