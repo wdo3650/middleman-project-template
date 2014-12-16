@@ -12,3 +12,6 @@ gem "middleman-livereload", "~> 3.1.0"
 
 # Windows does not come with time zone data
 # gem "tzinfo-data", platforms: [:mswin, :mingw]
+
+# http://middlemanapp.com/advanced/file-size-optimization/#minify-html
+gem "middleman-minify-html"

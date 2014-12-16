@@ -77,7 +77,7 @@ configure :build do
 
   # Enable cache buster
   activate :asset_hash, ignore: [
-    'javascripts/vendor/*', 
+    'javascripts/vendor/*',
     'bower_components/*',
     'fonts/*',
     'images/*',
@@ -89,4 +89,11 @@ configure :build do
 
   # Or use a different image path
   # set :http_prefix, "/Content/images/"
+
+  # http://middlemanapp.com/advanced/file-size-optimization/#gzip-text-files
+  activate :gzip
+
+  # http://middlemanapp.com/advanced/file-size-optimization/#minify-html
+  activate :minify_html
+
 end
