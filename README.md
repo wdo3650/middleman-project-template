@@ -6,6 +6,7 @@ Requirements
 - [Bundler](http://bundler.io/)
 - [Middleman](http://middlemanapp.com/)
 - [Compass](http://compass-style.org/)
+- [Bower](http://bower.io/)
 
 ##### Setup Project
 ```
@@ -13,6 +14,9 @@ git clone https://github.com/fellswoop/middleman-project-template.git
 ```
 ```
 cd middleman-project-template
+```
+```
+bower install
 ```
 ```
 bundle install
