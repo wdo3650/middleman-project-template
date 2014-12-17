@@ -1,4 +1,4 @@
-###### Make the world a better place, use: [EditorConfig](http://editorconfig.org/)
+###### Help make the world a better place, use [EditorConfig](http://editorconfig.org/)
 
 ### This is a Middleman starter template.
 Requirements
