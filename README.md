@@ -13,7 +13,10 @@ Requirements
 git clone https://github.com/fellswoop/middleman-project-template.git
 ```
 ```
-cd middleman-project-template
+mv middleman-project-template/ <your-project-name>/
+```
+```
+cd <your-project-name>
 ```
 ```
 bower install
