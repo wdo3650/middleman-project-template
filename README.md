@@ -29,7 +29,6 @@ bundle install
 ```
 bundle exec middleman server
 ```
-view [site](http://0.0.0.0:4567)
 view <a href="http://0.0.0.0:4567" target="_blank">Site</a>
 
 ##### Production
