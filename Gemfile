@@ -2,10 +2,10 @@
 # the following line to use "http://" instead
 source 'https://rubygems.org'
 
-gem "middleman", "~>3.3.7"
+gem "middleman"
 
 # Live-reloading plugin
-gem "middleman-livereload", "~> 3.1.0"
+gem "middleman-livereload"
 
 # http://middlemanapp.com/advanced/file-size-optimization/#minify-html
 gem "middleman-minify-html"
