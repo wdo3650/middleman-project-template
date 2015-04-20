@@ -27,11 +27,11 @@ bundle install
 
 ##### Development
 ```
-bundle exec middleman server
+rake preview
 ```
 view <a href="http://0.0.0.0:4567" target="_blank">Site</a>
 
 ##### Production
 ```
-bundle exec middleman build
+rake build
 ```
