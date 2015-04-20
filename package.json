@@ -1,0 +1,14 @@
+{
+  "author": "fellswoop",
+  "name": "middleman-project-template",
+  "version": "0.0.1",
+  "homepage": "",
+  "devDependencies": {
+    "grunt": "0.4.5",
+    "grunt-grunticon": "2.1.0",
+    "load-grunt-tasks": "3.1.0",
+    "time-grunt": "1.1.0",
+    "grunt-svgmin": "^2.0.1",
+    "svgmin": "^0.1.0"
+  }
+}

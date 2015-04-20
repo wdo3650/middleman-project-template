@@ -9,3 +9,5 @@ gem "middleman-livereload"
 
 # http://middlemanapp.com/advanced/file-size-optimization/#minify-html
 gem "middleman-minify-html"
+
+gem "middleman-autoprefixer"

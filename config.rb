@@ -70,10 +70,16 @@ set :images_dir, 'images'
 configure :build do
 
   # For example, change the Compass output style for deployment
-  activate :minify_css
+  activate :minify_css, ignore: [
+    'bower_components/*',
+    'stylesheets/vendor/*'
+  ]
 
   # Minify Javascript on build
-  activate :minify_javascript
+  activate :minify_javascript, ignore: [
+    'javascripts/vendor/*',
+    'bower_components/*',
+  ]
 
   # Enable cache buster
   activate :asset_hash, ignore: [
@@ -81,6 +87,11 @@ configure :build do
     'bower_components/*',
     'fonts/*',
     'images/*',
+    'stylesheets/vendor/*'
+  ]
+
+  activate :autoprefixer, ignore: [
+    'bower_components/*',
     'stylesheets/vendor/*'
   ]
 
