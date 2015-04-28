@@ -40,8 +40,14 @@ end
 # activate :automatic_image_sizes
 
 # Reload the browser automatically whenever files change
+# https://github.com/middleman/middleman-livereload/issues/24#issuecomment-17582303
 configure :development do
   activate :livereload
+  config[:file_watcher_ignore] += [
+    /bower_components\//,
+    /node_modules\//,
+    /images\//
+    ]
 end
 
 # Methods defined in the helpers block are available in templates
