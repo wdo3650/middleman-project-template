@@ -66,6 +66,7 @@ after_configuration do
   sprockets.append_path File.join "#{root}", @bower_config["directory"]
 end
 
+# middleman directories
 set :css_dir, 'stylesheets'
 
 set :js_dir, 'javascripts'
