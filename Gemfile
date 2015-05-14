@@ -11,3 +11,6 @@ gem "middleman-livereload"
 gem "middleman-minify-html"
 
 gem "middleman-autoprefixer"
+
+# lets make some favicons!
+gem "middleman-favicon-maker", "~> 3.7"
