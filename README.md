@@ -36,7 +36,7 @@ view <a href="http://0.0.0.0:4567" target="_blank">Site</a>
 rake build
 ```
 
-Image Grid and Hero Carousel
+ROAD MAP/ Image Grid and Hero Carousel
 ==
 ####Plugins and Libraries
 Both of these components use Bootstrap 3.3.4 and jQuery 1.11.3. These are linked to CDN's. Refer to Bootstrap's [documentation](http://getbootstrap.com/getting-started/) for further style customization.
