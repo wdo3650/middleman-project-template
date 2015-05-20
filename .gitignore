@@ -31,3 +31,6 @@ node_modules/*
 /build
 [branch "prod, stage"]
 !/build
+
+#Ignore IDE preferences
+.idea/
